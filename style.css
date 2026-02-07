@@ -619,6 +619,7 @@ body {
 }
 
 /* CTA section */
+
 .cta {
   padding: 100px 0;
   text-align: center;
@@ -654,6 +655,51 @@ body {
   cursor: pointer;
   font-weight: 600;
   font-size: 14px;
+}
+
+.cta-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-feature {
+  padding: 32px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta-svg-border {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.icon-small {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.cta-feature h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.cta-feature p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.cta-feature a {
+  color: #10b981;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
 }
 
 /* Footer section */
