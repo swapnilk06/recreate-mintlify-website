@@ -67,7 +67,148 @@ body {
   border-radius: 20px;
 }
 
+/* Hero section */
 
+.hero {
+  text-align: center;
+}
 
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: lab(27.76% -8.95 -20.74);
+  backdrop-filter: blur(10px);
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  display: inline-block;
+  color: #16a34a;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  margin-bottom: 40px;
+}
+
+.new {
+  background-color: #10b981;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.text {
+  color: #ffffff;
+}
+
+.new-badge {
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 62px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+#hero-text {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.hero-input input {
+  padding: 10px;
+  width: 338px;
+}
+
+.hero-input {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 60px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.email {
+  padding: 14px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 15px;
+  width: 300px;
+}
+
+.email::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.btn2-white {
+  position: absolute;
+  text-align: center;
+  left: 57.5%;
+  top: 9%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 20px;
+}
+
+.hero-img {
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.customer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16rem;
+}
+
+.customers {
+  padding: 80px 0;
+  background: white;
+  text-align: center;
+  max-width: 2200px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+  margin-left: 260px;
+}
+
+.customer-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 120px;
+  max-width: 2000px;
+  margin-right: 300px;
+}
+
+.logo-img {
+  width: 120px;
+  height: 35px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto;
+}
 
 
