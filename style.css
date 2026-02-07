@@ -3,3 +3,71 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url("./assets/bg-light-img.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 40vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 75px;
+  align-items: center;
+  margin: 0 auto;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  margin-left: 2rem;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 26rem;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.btn-black {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+
+
+
+
